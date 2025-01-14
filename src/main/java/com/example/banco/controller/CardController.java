@@ -28,6 +28,7 @@ public class CardController {
     
     @GetMapping("/card/{productId}/number")
     String generateNumber(@PathVariable Long productId) {
+        log.info("Request generateNumber id"+productId);
         return productId+String.valueOf(Math.random());
     }
 

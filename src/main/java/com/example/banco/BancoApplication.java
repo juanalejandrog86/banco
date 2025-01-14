@@ -8,7 +8,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EntityScan("com.example.banco.entity")
 @EnableJpaRepositories("com.example.banco.repository")
-
 public class BancoApplication {
 
 	public static void main(String[] args) {
